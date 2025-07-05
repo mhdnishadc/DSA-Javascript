@@ -5,4 +5,4 @@ function fibonnacci (n){
         return fibonnacci(n-1) + fibonnacci(n-2);
 }
 
-console.log(fibonnacci(30)); // Output: 55
+console.log(fibonnacci(60)); // Output: 55
