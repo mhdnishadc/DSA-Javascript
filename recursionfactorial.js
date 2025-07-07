@@ -6,3 +6,4 @@ function recursionFactorial(n){
 }
 
 console.log(recursionFactorial(5)); // Output: 120
+console.log(recursionFactorial(10)); // Output: 3628800
