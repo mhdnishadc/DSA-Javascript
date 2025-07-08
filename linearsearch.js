@@ -10,5 +10,5 @@ function linearSearch(n){
 }
 
 console.time("linearSearch");
-console.log(linearSearch(5)); // Output: 4  
+console.log(linearSearch(10));  
 console.timeEnd("linearSearch"); // Prints the time taken to execute linearSearch(5)
