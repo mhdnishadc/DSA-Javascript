@@ -1,14 +1,16 @@
-function linearSearch(n){
-    const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function linearSearch(arr, n) {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] === n) {
-            return i; 
+            return i;
         }
     }
-    return -1; 
-
+    return -1;
 }
 
+// Input array and target
+const inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const target = 10;
+
 console.time("linearSearch");
-console.log(linearSearch(10));  
-console.timeEnd("linearSearch"); // Prints the time taken to execute linearSearch(5)
+console.log(linearSearch(inputArray, target));  // Output: 9
+console.timeEnd("linearSearch");                // Example: linearSearch: 0.071ms
