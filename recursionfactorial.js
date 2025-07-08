@@ -4,6 +4,6 @@ function recursionFactorial(n){
     }
     return n * recursionFactorial(n-1);
 }
-
-console.log(recursionFactorial(5)); // Output: 120
-console.log(recursionFactorial(10)); // Output: 3628800
+console.time("recursionFactorial");
+console.log(recursionFactorial(50)); // Output: 120
+console.timeEnd("recursionFactorial"); // Prints the time taken to execute recursionFactorial(5)
