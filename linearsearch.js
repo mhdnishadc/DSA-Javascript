@@ -12,5 +12,5 @@ const inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 const target = 12;
 
 console.time("linearSearch");
-console.log(linearSearch(inputArray, target));  // Output: 9
-console.timeEnd("linearSearch");                // Example: linearSearch: 0.071ms
+console.log(linearSearch(inputArray, target));  
+console.timeEnd("linearSearch");                
