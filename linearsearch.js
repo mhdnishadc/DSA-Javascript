@@ -8,8 +8,8 @@ function linearSearch(arr, n) {
 }
 
 // Input array and target
-const inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-const target = 12;
+const inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+const target = 15;
 
 console.time("linearSearch");
 console.log(linearSearch(inputArray, target));  
