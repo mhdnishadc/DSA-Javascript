@@ -20,7 +20,7 @@ function binarySearch(arr, targetVal) {
     return -1;
 }
 
-const myArray = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23];
+const myArray = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27];
 const myTarget = 23;
 
 const result = binarySearch(myArray, myTarget);
