@@ -3,3 +3,4 @@ function reverse(str){
 }
 console.log(reverse("Hello");
 console.log(reverse("Apple");
+console.log(reverse("Welcom");
